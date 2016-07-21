@@ -1,5 +1,5 @@
 import csv, os, numpy
-open_file = open("CTD_genes_diseases.csv")
+open_file = open("CTD_genes_diseases.csv") #create a file holder for the csv file
 iread = open_file.readlines()
 max_molecules = 70000
 file_ind = 1
