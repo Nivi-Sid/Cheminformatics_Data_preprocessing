@@ -1,3 +1,5 @@
+# This python script extracts a specific field from an sdf file.
+
 import sys, os
 inputf = open("structures.sdf","r")
 
