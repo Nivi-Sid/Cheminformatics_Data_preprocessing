@@ -1,4 +1,7 @@
-#The MOE feature extraction software yields pharmacophore descriptors which have to be processed to create a binary matrix. This script takes in a csv file that tries to convert a pharamacophore feature [eg: '305 677 890 234'] into a binary matrix [eg: The binary matrix will have four fetures namely 305, 677, 890, 234].
+#The MOE feature extraction software yields pharmacophore descriptors which have to 
+#be processed to create a binary matrix. This script takes in a csv file that tries 
+#to convert a pharamacophore feature [eg: '305 677 890 234'] into a binary matrix 
+#[eg: The binary matrix will have four fetures namely 305, 677, 890, 234].
 
 import pandas as pd
 import numpy as np
